@@ -32,11 +32,14 @@
 
     <!-- CSS Sheet -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- JS -->
+    <script src="./main.js" defer></script>
   </head>
   <body>
     <nav class="nav">
       <div>
-        <a href="/">Home</a>
+        <a href="#">Home</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </div>
@@ -47,7 +50,11 @@
         <h1>Hi, I'm Ammar Yasser</h1>
         <h3>A Senior Accountant</h3>
         <form method="get" action="Ammar Yasser - CV - Accountant.pdf">
-          <button type="submit" class="btn btn-primary btn-lg">
+          <button
+            type="submit"
+            id="download-btn"
+            class="btn btn-primary btn-lg"
+          >
             DOWNLOAD CV
           </button>
         </form>
