@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(19, 32, 67);
+  background: linear-gradient(
+    90deg,
+    rgba(19, 32, 67, 1) 68%,
+    rgba(255, 255, 255, 1) 68%
+  );
+  padding-top: 1.3rem;
+}
+
+.nav h1 {
+  font-size: 2rem;
+  font-family: "Sacramento", cursive;
+  color: rgb(19, 32, 67);
+}
+
+.top-section {
+  height: 40rem;
+  width: 100%;
+  text-align: left;
+  background: rgb(19, 32, 67);
+  background: linear-gradient(
+    90deg,
+    rgba(19, 32, 67, 1) 68%,
+    rgba(255, 255, 255, 1) 68%
+  );
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #1f4172;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #132043;
+}
+
+.top-section a {
+  color: white;
+  text-decoration: none;
+  padding: 0 3rem;
+  font-size: 1.3rem;
+}
+.top-section h3 {
+  color: #64ccc5;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0 5rem;
+  font-size: 1.3rem;
+}
+
+.img-div {
+  border-radius: 100%;
+  border: 20px solid rgb(19, 32, 67);
+}
+
+.img-div img {
+  height: 25rem;
+  border-radius: 100%;
+  border: 15px solid white;
+}
+
+button {
+  margin: 1rem 0;
+}
+
+.mid-section {
+  margin: 8rem 0;
+}
+
+#about {
+  width: 50%;
+  margin: 10rem auto;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+.work-exp {
+  margin: 8rem 0;
+}
+
+.work {
+  width: 50%;
+  margin: 10rem auto;
+  text-align: left;
+}
+.work-img {
+  border-radius: 25%;
+  height: 10rem;
+  width: 10rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+#contact {
+  width: 50%;
+  margin: 10rem auto;
+}
+
+span a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  padding: 0;
+}
+
+.bottom-section {
+  height: 10rem;
+  width: 100%;
+  background: rgb(19, 32, 67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
