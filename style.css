@@ -150,6 +150,9 @@ span a {
   background: rgb(19, 32, 67);
   color: white;
   font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding-bottom: 1rem;
 }
