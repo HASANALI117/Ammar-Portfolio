@@ -3,6 +3,42 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #1f4172;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #132043;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0 5rem;
+  font-size: 1.3rem;
+}
+
+button {
+  margin: 1rem 0;
+}
+
+/* NavBar Section */
 .nav {
   display: flex;
   justify-content: space-around;
@@ -21,6 +57,7 @@ body {
   color: rgb(19, 32, 67);
 }
 
+/* Top Section */
 .top-section {
   height: 40rem;
   width: 100%;
@@ -37,38 +74,15 @@ body {
   align-items: center;
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: 800;
-  font-family: "Poppins", sans-serif;
-}
-
-h2 {
-  font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
-  color: #1f4172;
-  font-weight: 600;
-  padding-bottom: 10px;
-}
-h3 {
-  font-family: "Montserrat", sans-serif;
-  color: #132043;
-}
-
 .top-section a {
   color: white;
   text-decoration: none;
   padding: 0 3rem;
   font-size: 1.3rem;
 }
+
 .top-section h3 {
   color: #64ccc5;
-}
-a {
-  color: white;
-  text-decoration: none;
-  padding: 0 5rem;
-  font-size: 1.3rem;
 }
 
 .img-div {
@@ -82,10 +96,7 @@ a {
   border: 15px solid white;
 }
 
-button {
-  margin: 1rem 0;
-}
-
+/* Mid Section */
 .mid-section {
   margin: 8rem 0;
 }
@@ -93,11 +104,6 @@ button {
 #about {
   width: 50%;
   margin: 10rem auto;
-}
-
-p {
-  line-height: 2;
-  font-size: 1.3rem;
 }
 
 .work-exp {
@@ -129,6 +135,8 @@ span a {
   padding: 0;
 }
 
+/* Bottom Section */
+
 .bottom-section {
   height: 10rem;
   width: 100%;
@@ -137,6 +145,16 @@ span a {
   justify-content: center;
   align-items: center;
 }
+
+.copyright {
+  background: rgb(19, 32, 67);
+  color: white;
+  font-size: 0.8rem;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+/* Mobile Phones Styles */
 
 @media screen and (max-width: 768px) {
   a {
