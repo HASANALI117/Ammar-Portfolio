@@ -165,7 +165,7 @@ span a {
     font-size: 0.8rem;
   }
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   h2 {
     font-size: 1.2rem;
@@ -184,22 +184,30 @@ span a {
   /* Top Section */
   .nav {
     padding-top: 0.3rem;
+    background: rgba(19, 32, 67, 1);
   }
 
   .nav h1 {
     font-size: 1rem;
+    color: white;
   }
   .top-section {
-    padding: 0 0.5rem;
+    padding: 13rem 0.5rem 0 0.5rem;
     height: 30rem;
+    background: rgba(19, 32, 67, 1);
+    display: block;
+    text-align: center;
+  }
+
+  .img-div {
+    margin: 2rem auto;
+    width: fit-content;
+    border: 7px solid rgb(19, 32, 67);
   }
 
   .img-div img {
     height: 10rem;
     border: 5px solid white;
-  }
-  .img-div {
-    border: 10px solid rgb(19, 32, 67);
   }
 
   /* Mid Section */
